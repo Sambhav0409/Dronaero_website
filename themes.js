@@ -1,4 +1,13 @@
 exports.COLOR_THEMES = {
+  dronaero: {
+    colors: {
+      primary: '#1e40af', // Aerospace deep blue
+      'gradient-1': '#1e3a8a',
+      'gradient-2': '#2563eb',
+      'gradient-3': '#3b82f6',
+      'gradient-4': '#93c5fd',
+    },
+  },
   default: {
     colors: {
       primary: '#7D7AFF',

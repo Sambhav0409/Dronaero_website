@@ -77,13 +77,19 @@ const ThemeSwitcher = () => {
   );
 };
 
-export default function Footer({ copyrightText }) {
+export default function Footer() {
   return (
     <footer className="flex flex-col items-center py-16">
-      <p className="mb-3 font-bold uppercase dark:text-white opacity-60">
-        {copyrightText}
+      <p className="mb-3 text-lg font-bold uppercase dark:text-white opacity-80">
+        DronAero - Drone-Based Logistics
+      </p>
+      <p className="mb-3 text-sm dark:text-gray-400 opacity-60">
+        Transforming deliveries with B2B, B2C, and C2C solutions.
       </p>
       <ThemeSwitcher />
+      <p className="mt-6 text-xs dark:text-gray-500 opacity-50">
+        © {new Date().getFullYear()} DronAero. All rights reserved.
+      </p>
     </footer>
   );
 }
